@@ -11,7 +11,7 @@ namespace TestWebApp.Controllers
         public ActionResult Index()
         {
             bool testflag = false;
-            if(1==1) {testflag = true}
+            if(1==1) {testflag = true;}
             return View();
         }
 
