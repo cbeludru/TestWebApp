@@ -10,7 +10,8 @@ namespace TestWebApp.Controllers
     {
         public ActionResult Index()
         {
-            var temp = 10/0;
+            bool testflag = false;
+            if(1==1) {testflag = true}
             return View();
         }
 
